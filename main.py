@@ -2,10 +2,19 @@ import os
 from openai import OpenAI
 import json
 import collections
+from dotenv import load_dotenv
 
-os.environ["OPENAI_API_KEY"] = ""
+# Load environment variables from .env file
+load_dotenv()
+
+# Get the API key from environment variables
+api_key = os.getenv("OPENAI_API_KEY")
+
+if not api_key:
+    raise ValueError("No API key found. Please set the OPENAI_API_KEY environment variable.")
+
 client = OpenAI(
-    api_key=os.environ.get("OPENAI_API_KEY"),
+    api_key=api_key,
 )
 
 def read_prompt(file_path):
