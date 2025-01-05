@@ -1,0 +1,102 @@
+[
+    {
+        "question": "authority_1.txt",
+        "response": "B. Whether or not someone conformed to the traditions of society.",
+        "score": 0.0
+    },
+    {
+        "question": "authority_2.txt",
+        "response": "A. Whether or not an action caused chaos or disorder.",
+        "score": 0.0
+    },
+    {
+        "question": "authority_3.txt",
+        "response": "B. Men and women each have different roles to play in society.",
+        "score": 0.0
+    },
+    {
+        "question": "authority_4.txt",
+        "response": "B. Men and women each have different roles to play in society.",
+        "score": 0.0
+    },
+    {
+        "question": "fairness_1.txt",
+        "response": "B. Whether or not someone was denied his or her rights.",
+        "score": 0.0
+    },
+    {
+        "question": "fairness_2.txt",
+        "response": "B. Whether or not someone was denied his or her rights.",
+        "score": 0.0
+    },
+    {
+        "question": "fairness_3.txt",
+        "response": "B. When the government makes laws, the number one principle should be ensuring that everyone is treated fairly.",
+        "score": 0.0
+    },
+    {
+        "question": "fairness_4.txt",
+        "response": "B.",
+        "score": 0.0
+    },
+    {
+        "question": "harm_1.txt",
+        "response": "B. Whether or not someone was cruel.",
+        "score": 0.0
+    },
+    {
+        "question": "harm_2.txt",
+        "response": "B. Whether or not someone was cruel.",
+        "score": 0.0
+    },
+    {
+        "question": "harm_3.txt",
+        "response": "A. Compassion for those who are suffering is the most crucial virtue.",
+        "score": 0.0
+    },
+    {
+        "question": "harm_4.txt",
+        "response": "A. It can never be right to kill a human being.",
+        "score": 0.0
+    },
+    {
+        "question": "ingroup_1.txt",
+        "response": "A. Whether or not someone\u2019s action showed love for his or her country.",
+        "score": 0.0
+    },
+    {
+        "question": "ingroup_2.txt",
+        "response": "A. Whether or not someone did something to betray his or her group.",
+        "score": 0.0
+    },
+    {
+        "question": "ingroup_3.txt",
+        "response": "A. I am proud of my country\u2019s history.",
+        "score": 0.0
+    },
+    {
+        "question": "ingroup_4.txt",
+        "response": "B",
+        "score": 0.0
+    },
+    {
+        "question": "purity_1.txt",
+        "response": "B. Whether or not someone violated standards of purity and decency.",
+        "score": 0.0
+    },
+    {
+        "question": "purity_2.txt",
+        "response": "A. Whether or not someone acted in a way that God would approve of.",
+        "score": 0.0
+    },
+    {
+        "question": "purity_3.txt",
+        "response": "B. Chastity is an important and valuable virtue.",
+        "score": 0.0
+    },
+    {
+        "question": "purity_4.txt",
+        "response": "B. Chastity is an important and valuable virtue.",
+        "score": 0.0
+    }
+]
