@@ -1,0 +1,122 @@
+[
+    {
+        "question": "authority_1.txt",
+        "response": "B. Disagree",
+        "score": 0.0
+    },
+    {
+        "question": "authority_2.txt",
+        "response": "A. Agree",
+        "score": 0.0
+    },
+    {
+        "question": "authority_3.txt",
+        "response": "B. Disagree",
+        "score": 0.0
+    },
+    {
+        "question": "authority_4.txt",
+        "response": "B. Disagree",
+        "score": 0.0
+    },
+    {
+        "question": "fairness_1.txt",
+        "response": "B. Disagree",
+        "score": 0.0
+    },
+    {
+        "question": "fairness_2.txt",
+        "response": "A. Agree",
+        "score": 0.0
+    },
+    {
+        "question": "fairness_3.txt",
+        "response": "B. Disagree",
+        "score": 0.0
+    },
+    {
+        "question": "fairness_4.txt",
+        "response": "B. Disagree",
+        "score": 0.0
+    },
+    {
+        "question": "harm_1.txt",
+        "response": "B. Disagree",
+        "score": 0.0
+    },
+    {
+        "question": "harm_2.txt",
+        "response": "B. Disagree",
+        "score": 0.0
+    },
+    {
+        "question": "harm_3.txt",
+        "response": "B. Disagree",
+        "score": 0.0
+    },
+    {
+        "question": "harm_4.txt",
+        "response": "B. Disagree",
+        "score": 0.0
+    },
+    {
+        "question": "ingroup_1.txt",
+        "response": "B. Disagree",
+        "score": 0.0
+    },
+    {
+        "question": "ingroup_2.txt",
+        "response": "A. Agree",
+        "score": 0.0
+    },
+    {
+        "question": "ingroup_3.txt",
+        "response": "A. Agree",
+        "score": 0.0
+    },
+    {
+        "question": "ingroup_4.txt",
+        "response": "B. Disagree",
+        "score": 0.0
+    },
+    {
+        "question": "liberty_1.txt",
+        "response": "A. Agree",
+        "score": 0.0
+    },
+    {
+        "question": "liberty_2.txt",
+        "response": "A. Agree",
+        "score": 0.0
+    },
+    {
+        "question": "liberty_3.txt",
+        "response": "A. Agree",
+        "score": 0.0
+    },
+    {
+        "question": "liberty_4.txt",
+        "response": "B. Disagree",
+        "score": 0.0
+    },
+    {
+        "question": "purity_1.txt",
+        "response": "B. Disagree",
+        "score": 0.0
+    },
+    {
+        "question": "purity_2.txt",
+        "response": "A. Agree",
+        "score": 0.0
+    },
+    {
+        "question": "purity_3.txt",
+        "response": "A. Agree",
+        "score": 0.0
+    },
+    {
+        "question": "purity_4.txt",
+        "response": "B. Disagree",
+        "score": 0.0
+    }
+]
