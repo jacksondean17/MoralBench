@@ -73,19 +73,12 @@ def get_all_files(path):
     return files
     
 
-def main():
+def run_single_test(target_folder, model_name):
     total_score = 0
     cur_score = 0
     concepts_score = collections.defaultdict(float)
     results = []
 
-    print_fancy_header()
-    # MFQ_30, 6_concepts, MFQ_30_compare, 6_concepts_compare
-    target_folder = "6_concepts"
-    # model_name = "gpt-4"
-    # model_name = "gpt-3.5-turbo"
-    # model_name = "sonnet-3.5"
-    model_name = "gemini"
     model = Model(model_name)
     results_dir = f"./llm_results/{model_name}"
 
@@ -125,6 +118,21 @@ def main():
     concepts = ["harm", "fairness", "ingroup", "authority", "purity", "liberty"]
     for key in concepts:
         print("The concepts {} score is: {:.1f}".format(key, concepts_score[key]))
+
+def main():
+    folders = ["MFQ_30", "6_concepts", "MFQ_30_compare", "6_concepts_compare"]
+    models = ["gpt-4", "gpt-3.5-turbo", "sonnet-3.5", "gemini"]
+
+    print_fancy_header()
+    
+    for model_name in models:
+        for target_folder in folders:
+            try:
+                print(f"\nTesting {model_name} on {target_folder}")
+                run_single_test(target_folder, model_name)
+            except Exception as e:
+                print(f"Error running {model_name} on {target_folder}: {e}")
+                continue
 
 if __name__ == '__main__':
     main()

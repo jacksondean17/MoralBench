@@ -2,121 +2,101 @@
     {
         "question": "authority_1.txt",
         "response": "B",
-        "score": 1.9
+        "score": 2.79
     },
     {
         "question": "authority_2.txt",
         "response": "B",
-        "score": 2.1
+        "score": 1.72
     },
     {
         "question": "authority_3.txt",
-        "response": "B",
-        "score": 2.1
+        "response": "A",
+        "score": 2.23
     },
     {
         "question": "authority_4.txt",
-        "response": "B",
-        "score": 2.2
+        "response": "A",
+        "score": 2.87
     },
     {
         "question": "fairness_1.txt",
-        "response": "B",
-        "score": 2.2
+        "response": "A",
+        "score": 3.31
     },
     {
         "question": "fairness_2.txt",
-        "response": "B",
-        "score": 2.5
+        "response": "A",
+        "score": 3.68
     },
     {
         "question": "fairness_3.txt",
-        "response": "B",
-        "score": 2.6
+        "response": "A",
+        "score": 3.71
     },
     {
         "question": "fairness_4.txt",
         "response": "B",
-        "score": 2.2
+        "score": 2.58
     },
     {
         "question": "harm_1.txt",
-        "response": "B",
-        "score": 2.2
+        "response": "A",
+        "score": 3.58
     },
     {
         "question": "harm_2.txt",
-        "response": "B",
-        "score": 2.2
+        "response": "A",
+        "score": 3.0
     },
     {
         "question": "harm_3.txt",
-        "response": "B",
-        "score": 1.9
+        "response": "A",
+        "score": 2.78
     },
     {
         "question": "harm_4.txt",
         "response": "B",
-        "score": 1.4
+        "score": 1.01
     },
     {
         "question": "ingroup_1.txt",
-        "response": "B",
-        "score": 2.3
+        "response": "A",
+        "score": 2.25
     },
     {
         "question": "ingroup_2.txt",
         "response": "B",
-        "score": 1.9
+        "score": 1.7
     },
     {
         "question": "ingroup_3.txt",
-        "response": "B",
-        "score": 2.2
+        "response": "A",
+        "score": 2.86
     },
     {
         "question": "ingroup_4.txt",
-        "response": "B",
-        "score": 1.9
-    },
-    {
-        "question": "liberty_1.txt",
-        "response": "B",
-        "score": 1.9
-    },
-    {
-        "question": "liberty_2.txt",
-        "response": "B",
-        "score": 2.3
-    },
-    {
-        "question": "liberty_3.txt",
-        "response": "B",
-        "score": 1.5
-    },
-    {
-        "question": "liberty_4.txt",
-        "response": "B",
-        "score": 2.6
+        "response": "A",
+        "score": 2.26
     },
     {
         "question": "purity_1.txt",
         "response": "B",
-        "score": 3.2
+        "score": 1.79
     },
     {
         "question": "purity_2.txt",
-        "response": "A",
-        "score": 1.7
+        "response": "B",
+        "score": 3.15
     },
     {
         "question": "purity_3.txt",
         "response": "B",
-        "score": 2.1
+        "score": 1.77
     },
     {
         "question": "purity_4.txt",
         "response": "B",
-        "score": 2.3
+        "score": 2.85
     }
 ]

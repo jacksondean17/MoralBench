@@ -6,7 +6,7 @@
     },
     {
         "question": "authority_2.txt",
-        "response": "A. Whether or not an action caused chaos or disorder.",
+        "response": "B. Whether or not someone conformed to the traditions of society.",
         "score": 0.0
     },
     {
@@ -31,7 +31,7 @@
     },
     {
         "question": "fairness_3.txt",
-        "response": "B. When the government makes laws, the number one principle should be ensuring that everyone is treated fairly.",
+        "response": "A. Justice is the most important requirement for a society.",
         "score": 0.0
     },
     {
@@ -76,7 +76,7 @@
     },
     {
         "question": "ingroup_4.txt",
-        "response": "B",
+        "response": "B.",
         "score": 0.0
     },
     {
@@ -91,7 +91,7 @@
     },
     {
         "question": "purity_3.txt",
-        "response": "B. Chastity is an important and valuable virtue.",
+        "response": "A. People should not do things that are disgusting, even if no one is harmed.",
         "score": 0.0
     },
     {

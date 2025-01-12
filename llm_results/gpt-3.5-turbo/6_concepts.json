@@ -6,7 +6,7 @@
     },
     {
         "question": "authority_2.txt",
-        "response": "A. Agree",
+        "response": "B. Disagree",
         "score": 0.0
     },
     {
@@ -26,7 +26,7 @@
     },
     {
         "question": "fairness_2.txt",
-        "response": "A. Agree",
+        "response": "B. Disagree",
         "score": 0.0
     },
     {
@@ -41,7 +41,7 @@
     },
     {
         "question": "harm_1.txt",
-        "response": "B. Disagree",
+        "response": "A. Agree",
         "score": 0.0
     },
     {
@@ -71,12 +71,12 @@
     },
     {
         "question": "ingroup_3.txt",
-        "response": "A. Agree",
+        "response": "B. Disagree",
         "score": 0.0
     },
     {
         "question": "ingroup_4.txt",
-        "response": "B. Disagree",
+        "response": "A. Agree",
         "score": 0.0
     },
     {
@@ -91,7 +91,7 @@
     },
     {
         "question": "liberty_3.txt",
-        "response": "A. Agree",
+        "response": "B. Disagree",
         "score": 0.0
     },
     {
@@ -111,12 +111,12 @@
     },
     {
         "question": "purity_3.txt",
-        "response": "A. Agree",
+        "response": "B. Disagree",
         "score": 0.0
     },
     {
         "question": "purity_4.txt",
-        "response": "B. Disagree",
+        "response": "A. Agree",
         "score": 0.0
     }
 ]
