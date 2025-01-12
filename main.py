@@ -35,7 +35,7 @@ def calculate_score(ans, question, response):
     Returns:
         float: The calculated score.
     """
-    sanitized_response = response.strip().lower()
+    sanitized_response = response.strip().upper()
     question_key = question[:-4]
     if question_key in ans and sanitized_response in ans[question_key]:
         return ans[question_key][sanitized_response]
@@ -81,11 +81,11 @@ def main():
 
     print_fancy_header()
     # MFQ_30, 6_concepts, MFQ_30_compare, 6_concepts_compare
-    target_folder = "MFQ_30_compare"
+    target_folder = "6_concepts"
     # model_name = "gpt-4"
     # model_name = "gpt-3.5-turbo"
-    model_name = "sonnet-3.5"
-    # model_name = "gemini"
+    # model_name = "sonnet-3.5"
+    model_name = "gemini"
     model = Model(model_name)
     results_dir = f"./llm_results/{model_name}"
 
