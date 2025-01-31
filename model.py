@@ -1,6 +1,7 @@
 from langchain_openai import ChatOpenAI
 from langchain_anthropic import ChatAnthropic
 from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_ollama import ChatOllama
 from langchain_core.messages import SystemMessage, HumanMessage
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.rate_limiters import InMemoryRateLimiter
@@ -38,6 +39,16 @@ class Model:
             )
             self.client = ChatGoogleGenerativeAI(
                 model="gemini-1.5-flash",
+                rate_limiter=rate_limiter
+            )
+        elif model_name == "llama2":
+            rate_limiter = InMemoryRateLimiter(
+                requests_per_second=0.2,  # 15 requests per minute
+                check_every_n_seconds=0.1,
+                max_bucket_size=20
+            )
+            self.client = ChatOllama(
+                model="llama2:7b",
                 rate_limiter=rate_limiter
             )
 
